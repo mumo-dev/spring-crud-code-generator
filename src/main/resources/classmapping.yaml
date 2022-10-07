@@ -1,0 +1,37 @@
+
+#* string
+#* integer
+#* long
+#* float
+#* boolean
+#* double
+#* date
+#* datetime
+#* array::type
+#* list::type
+#* set::type
+#* map::type,type
+- string:
+  java-type: String
+- double:
+  java-type: Double
+- integer:
+  java-type: Integer
+- float:
+  java-type: Float
+- long:
+  java-type: Long
+- boolean:
+  java-type: Boolean
+- date:
+  java-type: Date
+  import: java.util.*
+- datetime:
+  java-type: Date
+  import: java.util.*
+- instant:
+  java-type: Instant
+  import: java.time.*
+#- array:
+#  java-type: Instant
+#  import: java.time.*

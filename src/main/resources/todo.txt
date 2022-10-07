@@ -1,0 +1,5 @@
+1. generate a hibernate entity class
+2. generate repository class
+3. generate crud service
+3. generate crud controller
+
